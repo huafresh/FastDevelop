@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveImageView">
+        <attr name="wave_height" format="dimension"/>
+        <attr name="wave_cycle" format="integer"/>
+        <attr name="wave_second_color" format="color"/>
+        <attr name="wave_speed" format="dimension"/>
+        <attr name="wave_empty_color" format="color"/>
+        <attr name="wave_second_cycle_multiple" format="integer"/>
+        <attr name="wave_image_src" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="DraggableListView">
+        <attr name="style">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="2"/>
+            <enum name="grid" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
