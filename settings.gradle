@@ -1,1 +1,1 @@
-include ':app', ':waveimageview', ':widget'
+include ':app', ':waveimageview', ':java_tools', ':kotlin_tools'
